@@ -1,0 +1,38 @@
+
+
+header{
+    overflow: hidden;
+    background-color:#fff;
+    position:sticky;
+    top:0;
+    text-align: center;
+    box-shadow: 0 0.5em 1em 0 #f7f4f45d;
+}
+
+header>h1{
+    padding-left: 1em;
+    margin-top: 0.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 2rem;
+    font-size: 4.8em;
+    font-weight: 700;
+    color: #000;
+    float: left;
+}
+nav{
+    margin-top: 1.2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2.4rem;
+    font-weight: 300;
+    
+    
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    padding: 1rem;
+    margin-right: 1rem;
+    padding-right: 2em;
+}
