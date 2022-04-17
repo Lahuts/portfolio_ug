@@ -1,0 +1,27 @@
+.my_projects {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+.my_projects > h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.grid_projects {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+  margin: 0em 1em 0em 1em;
+}
+.grid_projects > li {
+  height: 15vh;
+  font-size: 2.4rem;
+  font-weight: 300;
+  color: #000;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #000;
+}
