@@ -1,0 +1,25 @@
+
+footer{
+    height: 14vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2em;
+    text-align: center;
+    background-color: rgb(22, 104, 255);
+    justify-content: center;
+    align-items: center;
+}
+footer>div>a>img{
+    width: 6.4rem;
+    height: 6.4rem;
+    margin-left: 2em;
+}
+footer>p{
+    font-size: 2.4em;
+    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    vertical-align: bottom;
+}
+
+

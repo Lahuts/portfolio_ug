@@ -8,6 +8,7 @@ header{
     text-align: center;
     box-shadow: 0 0.5em 1em 0 #f7f4f45d;
     justify-content: space-between;
+    z-index: 1;
     
 }
 header a{
