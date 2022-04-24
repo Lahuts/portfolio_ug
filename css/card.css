@@ -1,0 +1,50 @@
+.cards-dis{
+position: relative;
+}
+.cards-dis>*{
+position: absolute;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-color: #fff;
+border: solid 1px #000;
+height: 26rem;
+width: 20rem;
+padding: 2em;
+gap: 2rem;
+
+    
+}
+.card>h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin:0;
+}
+.card>p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin:0;
+}
+
+.card:hover{
+    box-shadow: 0 0.1em 3em  rgba(95, 95, 95, 0.87);
+    transition: 0.5s;
+}
+.card-l{
+    left: -10rem;
+    top: 12rem;
+}
+.card-br{
+    top:28rem;
+    left: 12rem;
+}
+.card-ur{
+    left: 14rem;
+}
