@@ -1,10 +1,10 @@
 .hero_banner{
     height: 100vh;
     display: flex;
-
-    background-size: cover;
-    background-position: center;
+    background-image: url(/asset/bc-hb-2.svg);
+    background-position:right 0%;
     background-repeat: no-repeat;
+    margin-bottom: 8rem;
 }
 .hero_banner>img{
     width: 100%;
@@ -12,13 +12,13 @@
     object-fit: cover;
 }
 .hero_banner>h2{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 4.0em;
+    font-family: var(---title-font-family);
+    font-size:var(---title-size);
     font-weight: 700;
-    color: #000;
+    color: var(---font-light-color);
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -26,21 +26,21 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
-    color: #000;
+    color: var(---font-light-color);
 
     text-decoration: none;
     text-align: center;
-    border: 0.1em solid #000;
+    border: 0.1em solid var(---font-light-color);
     position: absolute;
-    top: 55%;
-    left: 45%;
+    top: 60%;
+    left: 20%;
     padding: 1em;
     border-radius: 4em 4em 4em 4em;
 }
 .hero_banner>a:hover{
     transition: ease-in-out 0.3s;
-    background-color: #000;
-    color: #fff;
+    background-color: var(---font-light-color);
+    color:var(---font-dark-color);
 }
 
 

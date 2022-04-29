@@ -1,50 +1,91 @@
 .cards-dis{
 position: relative;
+
 }
 .cards-dis>*{
-position: absolute;
+    position: absolute;
 }
 .card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-background-color: #fff;
-border: solid 1px #000;
-height: 26rem;
-width: 20rem;
+
+height: 37vh;
+width: 16vw;
 padding: 2em;
 gap: 2rem;
+border-radius: 2em;
 
     
 }
 .card>h3{
     font-size: 2.4rem;
     font-weight: 700;
-    color: rgb(0, 0, 0);
+    color: #fff;
     text-align: center;
     margin:0;
 }
 .card>p{
     font-size: 1.6rem;
     font-weight: 400;
-    color: rgb(0, 0, 0);
+    color: #fff;
     text-align: center;
     margin:0;
 }
 
 .card:hover{
-    box-shadow: 0 0.1em 3em  rgba(95, 95, 95, 0.87);
+    box-shadow: 0 0.1em 3em  rgba(240, 252, 132, 0.87);
     transition: 0.5s;
 }
+.card-ddzone{
+    background-color: rgb(70, 255, 230);
+    box-shadow: inset rgb(2, 155, 155) 0 0.5em 4em 0 ,  rgb(152, 248, 243) 0 0.5em 1em 0;
+    height: 16vh;
+    width: 16vw;
+    top: 16% ;
+    left: 45% ;
+    border-radius: 2rem;
+}
+.card-dzone>h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin:0;
+}
+.card-dzone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(70, 255, 116);
+    box-shadow: inset rgb(0, 138, 30) 0 0.5em 4em 0 ;
+    height: 19vh;
+    width: 16vw;
+    top: 73% ;
+    left: 45% ;
+    border-radius: 2rem;
+
+}
+
 .card-l{
-    left: -10rem;
-    top: 12rem;
+    left: 10%;
+    top: 16%;
+    background-color: rgb(78, 81, 255);
+    box-shadow: inset rgb(26, 14, 139) 0 0.5em 4em 0 ;
+    box-shadow: inset;
 }
 .card-br{
-    top:28rem;
-    left: 12rem;
+    top:55%;
+    left: 10%;
+    background-color: rgb(255, 182, 25);
+    box-shadow: inset rgb(197, 123, 12) 0 0.5em 4em 0 ,  rgb(248, 200, 129) 0 0.5em 1em 0;
 }
 .card-ur{
-    left: 14rem;
+    top: 34%;
+    left: 45%;
+    background-color: rgb(255, 67, 67);
+    box-shadow: inset rgb(165, 9, 9) 0 0.5em 4em 0 ,  rgb(206, 36, 6) 0 0.5em 1em 0;
+    
 }

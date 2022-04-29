@@ -2,29 +2,27 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(---p-font-family);
     height: 100vh;
-    background-color: rgb(255, 255, 255);
 }
 .skills>div>h2{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(---title-font-family);
     font-size: 4em;
     font-weight: 700;
-    color: #000;
+    color: var(---font-light-color);
 }
 .skills>div>p{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(---p-font-family);
     font-size: 1.6em;
     font-weight: 300;
-    color: #000;
+    color: var(---font-light-color);
 }
 .skills>div>button{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(---p-font-family);
     font-size: 1.6rem;
     font-weight: 500;
-    color: #000;
-    background-color: #fff;
-    border: 0.1em solid #000;
+    color: var(---font-light-color);
+;    border: 0.1em solid var(---font-light-color);
     padding: 1em;
     border-radius: 4em 4em 4em 4em;
 }
