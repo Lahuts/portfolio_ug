@@ -26,8 +26,8 @@
 }
 .contact>form>input{
     font-size: initial;
-    width: 45rem;
-    background-color: var(---font-dark-color);
+    width: 32vw;
+    background-color: rgb(36, 41, 112);
     border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
     padding: 2.5rem 0rem 2.5rem 1rem;
     height: 2em;
@@ -37,10 +37,10 @@
 
 }
 .contact>form>textarea{
-    width: 45rem;
+    width: 32vw;
     margin-top: 2em;
     margin-bottom: 2em;
-    background-color: var(---font-dark-color);
+    background-color: rgb(36, 41, 112);
     border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
     padding: 1.5rem 0rem 0rem 1rem;
     height: 10em;
@@ -56,7 +56,7 @@
     text-align: center;
     vertical-align: middle;
     font-size: 1.9rem;
-    box-shadow: inset rgb(241, 103, 103) 0 0.5em 1em 0 ,  rgb(248, 200, 129) 0 0.5em 1em 0;
+    box-shadow: inset rgb(241, 103, 103) 0 0.5em 1em 0;
     border: none;
     padding: 0em 1.5em 0em 1.5em;; 
     border-radius: 4rem 4rem 4rem 4rem;

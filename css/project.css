@@ -13,7 +13,7 @@
   color:var(---font-light-color);
 }
 .my_projects > p {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: var(---p-font-family);
   font-size: 1.6rem;
   font-weight: 300;
   color: var(---font-light-color);
@@ -29,6 +29,7 @@
   text-align: center;
   border-radius: 3rem;
   overflow: hidden;
+  border: 1rem solid rgb(48, 48, 48);
 }
 .grid_projects > li > img {
   width: 100%;
