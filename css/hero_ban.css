@@ -3,7 +3,7 @@
     display: flex;
     background-image: url(../asset/herobanbc.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 }
 .hero_banner>img{
