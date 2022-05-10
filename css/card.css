@@ -121,3 +121,47 @@ border-radius: 2em;
     box-shadow: inset rgb(165, 9, 9) 0 0.5em 4em 0 ;
     
 }
+
+@media (max-width: 768px) {
+    .border{
+        width: 90vw;
+        height: 60vh;
+}
+.card{
+    width: 35vw;
+    height: 25vh;
+}
+.card-dzone{
+    width: 35vw;
+    height: 25vw;
+    top:118%;
+    left: 52%;
+}
+.card-ddzone{
+    width: 35vw;
+    height: 24vw;
+    left: 52%;
+    top :18%;
+
+}
+.card-br{
+    top: 85%;
+    left: 12%;
+}
+.card-l{
+    top: 18%;
+    left: 12%;
+}
+.card-ur{
+    top: 50%;
+    left: 52%;
+}
+
+.cards-dis>*>h3{
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin:0;
+}
+}

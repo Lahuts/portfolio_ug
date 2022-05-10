@@ -71,3 +71,19 @@
     background-color: rgb(255, 90, 25);
     
 }
+@media screen and (max-width: 768px){
+    .contact{
+        grid-template-columns: 1fr;
+    }
+    .contact>form{
+        width: 100%;
+    }
+    .contact>h2{
+        margin-bottom: 2rem;
+    }
+    .contact>form>input, .contact>form>textarea{
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}

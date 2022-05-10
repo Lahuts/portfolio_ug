@@ -42,6 +42,23 @@
     color:var(---font-light-color);
 }
 
+/* ############################################################################## */
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .hero_banner>h2{
+        top: 25%;
+        left: 50%;
+    }
+    .hero_banner>a{
+        top: 35%;
+        left: 35%;
+    }
+    .hero_banner{ 
+        background-position: center;
+    }
+    
+}
+
 
 
   
