@@ -39,5 +39,18 @@
 @media screen and (max-width: 768px) {
     .grid_projects{
       display: inline-block;
+      overflow: hidden;
+      margin: 0;
     }
+    .grid_projects>li{
+      background-color: rgb(48, 48, 48);
+      margin-top:  1rem;
+    }
+    .grid_projects>li:nth-child(2){
+      display: none;
+    }
+    .grid_projects>li:nth-child(3){
+      display: none;
+    }
+
 }

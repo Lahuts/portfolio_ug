@@ -122,41 +122,43 @@ border-radius: 2em;
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     .border{
         width: 90vw;
         height: 60vh;
 }
 .card{
     width: 35vw;
-    height: 25vh;
+    height: 24vh;
 }
 .card-dzone{
     width: 35vw;
-    height: 25vw;
-    top:118%;
+    height: 12vh;
+    top:69%;
     left: 52%;
 }
 .card-ddzone{
     width: 35vw;
-    height: 24vw;
+    height: 11vh;
     left: 52%;
-    top :18%;
+    top :14%;
 
 }
 .card-br{
-    top: 85%;
+    top: 52%;
     left: 12%;
 }
 .card-l{
-    top: 18%;
+    top: 14%;
     left: 12%;
 }
 .card-ur{
-    top: 50%;
+    top: 32%;
     left: 52%;
 }
-
+.cards-dis{
+    height: 70vh;
+}
 .cards-dis>*>h3{
     font-size: 2.0rem;
     font-weight: 700;

@@ -213,3 +213,59 @@ h5{
 .dis-graph>li>img{
     float: left;
 }
+@media screen and (max-width: 820px){
+    .dis-dev>li>figure{
+        width: 100%;
+        margin: 0;
+    }
+    .dis-dev{
+        width: 100%;
+    }
+    .dis-dev{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:2rem;
+        width: 95%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        
+    }
+    .dis-dev>li>figure{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        padding: 1rem;
+        background-color: rgb(80, 73, 73);
+        border-radius: 2rem;
+    }
+    .dis-dev>li>figure>img{
+        width: 14vw;
+        background-color: #fff;
+        border-radius: 1rem;
+    }
+    .dis-dev>li>figure>figcaption>h5{
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin:0;
+    }
+    .dis-dev>li>figure>ul{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    
+    }
+    .dis-dev>li>figure>ul>li{
+        font-size: 2vw;
+        background-color: rgb(89, 125, 232);
+        color: #fff;
+        padding: 1rem;
+        border-radius: 2rem;
+        text-align: center;
+    
+    }
+}
