@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded",e =>{
           <li>
             <figure>
               <img src="asset/js.png" alt="JavaScript" />
-              <figcaption><h5>JavaScript</h5></figcaption>
+              <figcaption><h6>JavaScript</h6></figcaption>
               <ul>
                 <li>Web</li>
                 <li>Site</li>
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded",e =>{
           <li>
             <figure>
               <img src="asset/c.svg" alt="C#" />
-              <figcaption><h5>C#</h5></figcaption>
+              <figcaption><h6>C#</h6></figcaption>
               <ul>
                 <li>application</li>
                 <li>Script</li>
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded",e =>{
           <li>
             <figure>
               <img src="asset/java.png" alt="Java" />
-              <figcaption><h5>Java</h5></figcaption>
+              <figcaption><h6>Java</h6></figcaption>
               <ul>
                 <li>Application</li>
                 <li>Classe</li>
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded",e =>{
           <li>
             <figure>
               <img src="asset/python.png" alt="Python" />
-              <figcaption><h5>Python</h5></figcaption>
+              <figcaption><h6>Python</h6></figcaption>
               <ul>
                 <li>Application</li>
                 <li>Classe</li>
@@ -55,17 +55,49 @@ document.addEventListener("DOMContentLoaded",e =>{
           </li>
           <li>
             <figure>
-              <img src="asset/js.png" alt="JavaScript" />
-              <figcaption><h5>JavaScript</h5></figcaption>
+              <img src="asset/css.png" alt="css" />
+              <figcaption><h6>CSS</h6></figcaption>
               <ul>
                 <li>Web</li>
                 <li>Site</li>
               </ul>
             </figure>
           </li>
+          <li>
+            <figure>
+              <img src="asset/sql.png" alt="Sql" />
+              <figcaption><h6>Sql</h6></figcaption>
+              <ul>
+                <li>BDD</li>
+                <li>serveur</li>
+              </ul>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="asset/html.png" alt="Html" />
+              <figcaption><h6>HTML</h6></figcaption>
+              <ul>
+                <li>Web</li>
+                <li>Site</li>
+              </ul>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="asset/c++.png" alt="c++" />
+              <figcaption><h6>C++</h6></figcaption>
+              <ul>
+                <li>application</li>
+                <li>Algo</li>
+              </ul>
+            </figure>
+          </li>
         </ul>`;
         let exit = document.querySelector(".exit");
+        exit.classList += " exit-active";
         exit.addEventListener("click",()=>{
+            exit.classList.remove("exit-active");
             bd.classList.remove("db-dev");
             bd.innerHTML = `<p class="exit"></p>`;
         });    
@@ -96,7 +128,9 @@ document.addEventListener("DOMContentLoaded",e =>{
         </ul>`;
 
         let exit = document.querySelector(".exit");
+        exit.classList += " exit-active";
         exit.addEventListener("click",()=>{
+            exit.classList.remove("exit-active");
             bd.classList.remove("db-dev");
             bd.innerHTML = `<p class="exit"></p>`;
             exit.classList.remove("exit-active");
@@ -104,14 +138,5 @@ document.addEventListener("DOMContentLoaded",e =>{
         
     });
 
-let  a = Email.send({
-      SecureToken : "97593558-a48c-48d0-975f-1d41bcd53747",
-      To : 'changtanghu@gmail.com',
-      From : "Moi",
-      Subject : "This is the subject",
-      Body : "And this is the body"
-  }).then(
-    message => alert(message)
-  );
     
 })
