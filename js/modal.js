@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded",e =>{
         bd.innerHTML = `
         <p class="exit"></p>
         <h4>Développement</h4>
+        <h5>Ma Stack de langages : </h5>
         <ul class="dis-dev">
           <li>
             <figure>
@@ -67,7 +68,6 @@ document.addEventListener("DOMContentLoaded",e =>{
         exit.addEventListener("click",()=>{
             bd.classList.remove("db-dev");
             bd.innerHTML = `<p class="exit"></p>`;
-            exit.classList.remove("exit-active");
         });    
     });
     document.querySelector(".card-ur").addEventListener("click",()=>{
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded",e =>{
         bd.innerHTML =`
         <p class="exit"></p>
         <h4>Design</h4>
-        <h5>Mes logiciels de graphisme </h5>
+        <h5>Mes logiciels de graphisme :</h5>
         <ul class="dis-graph">
             <li>
                 <img src="asset/Adobe_Photoshop_CC.svg" alt="Photoshop">

@@ -18,7 +18,7 @@
     color: #fff;
     position: absolute;
     top: 55%;
-    left: 25%;
+    left: 30%;
     transform: translate(-50%, -50%);
 }
 .hero_banner>a{
@@ -50,6 +50,9 @@
         width: 100%;
         top: 45%;
         left: 50%;
+    }
+    .hero_banner>h2{
+        font-size: 10vw;
     }
     .hero_banner>a{
         display: none;

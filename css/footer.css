@@ -9,8 +9,7 @@ footer{
     align-items: center;
 }
 footer>div>a>img{
-    width: 6.4rem;
-    height: 6.4rem;
+    width: 5vw;
     margin-left: 2rem;
 }
 footer>p{
@@ -28,5 +27,8 @@ footer>div>a:hover{
 @media screen and (max-width: 820px) {
     footer>p{
         font-size: 3vw;
+    }
+    footer>div>a>img{
+        width: 8vw;
     }
 }
