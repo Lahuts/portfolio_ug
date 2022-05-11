@@ -2,7 +2,10 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Portfolio  - Alexis Huet - DEV - WEB - Développement web - full stack - recherche alternance">
+    <meta
+      name="description"
+      content="Portfolio  - Alexis Huet - DEV - WEB - Développement web - full stack - recherche alternance"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
@@ -22,30 +25,27 @@
   </head>
   <body>
     <header>
-      <a href=""><h1>Alexis Huet</h1></a>
+      <a href="#sec-home"><h1>Alexis Huet</h1></a>
       <nav>
         <ul>
-          <li><a href="index.html">Compétences</a></li>
-          <li><a href="portfolio.html">Projets</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          
+          <li><a href="#sec-skills">Compétences</a></li>
+          <li><a href="#sec-project">Projets</a></li>
+          <li><a href="#sec-contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="hero_banner">
+      <section class="hero_banner" id="sec-home">
         <h2>
           Alexis Huet ,<br />
           Développeur Informatique
         </h2>
-        <p></p>
-        <a href="">Contact me</a>
       </section>
-      <section class="skills">
+      <section class="skills" id="sec-skills">
         <div class="myskills">
           <h2>Mes Compétences</h2>
           <p>Cliquez sur les categories<br />pour en apprendre plus !</p>
-          <button>Télécharger CV</button>
+          <a href="asset/CV_alexis_huet.pdf" download>Télécharger CV</a>
         </div>
 
         <ul class="cards-dis">
@@ -73,17 +73,21 @@
           </li>
         </ul>
       </section>
-      <section class="my_projects">
+      <section class="my_projects" id="sec-project">
         <h2>Mes Projets</h2>
         <ul class="grid_projects">
           <li>
             <img src="asset/strmw.jpeg" alt="Streamow site de streaming" />
           </li>
-          <li><img src="asset/strmw.jpeg" alt="" /></li>
-          <li><img src="asset/strmw.jpeg" alt="" /></li>
+          <li>
+            <img src="asset/strmw.jpeg" alt="" />
+          </li>
+          <li>
+            <img src="asset/strmw.jpeg" alt="" />
+          </li>
         </ul>
       </section>
-      <section class="contact">
+      <section class="contact" id="sec-contact">
         <h2>
           Contacter moi <br />
           Via se formulaire
@@ -105,6 +109,8 @@
       <p>Copyright 2022 - portfolio</p>
       <p>alexis.huet.m@gmail.com</p>
     </footer>
+    
     <script src="js/modal.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>

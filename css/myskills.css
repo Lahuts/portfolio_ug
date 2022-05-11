@@ -31,4 +31,17 @@
     padding: 1em;
     border-radius: 4em 4em 4em 4em;
 }
+.myskills>a{
+    font-size: 2rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    border: thin #fff solid;
+    color: #fff;
+}
+.myskills>a:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #fff;
+    color: rgb(58, 64, 145);
+    
+}
 

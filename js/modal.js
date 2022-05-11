@@ -104,6 +104,14 @@ document.addEventListener("DOMContentLoaded",e =>{
         
     });
 
-    
+let  a = Email.send({
+      SecureToken : "97593558-a48c-48d0-975f-1d41bcd53747",
+      To : 'changtanghu@gmail.com',
+      From : "Moi",
+      Subject : "This is the subject",
+      Body : "And this is the body"
+  }).then(
+    message => alert(message)
+  );
     
 })
