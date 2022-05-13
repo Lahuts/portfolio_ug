@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded",e =>{
     
 
 
-
+// template Dev - Graph
     let bd = document.querySelector(".border");
     document.querySelector(".card-l").addEventListener("click",()=>{
         
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded",e =>{
           </li>
           <li>
             <figure>
-              <img src="asset/c++.png" alt="c++" />
+              <img src="asset/C++.png" alt="c++" />
               <figcaption><h6>C++</h6></figcaption>
               <ul>
                 <li>application</li>
@@ -135,8 +135,33 @@ document.addEventListener("DOMContentLoaded",e =>{
             bd.innerHTML = `<p class="exit"></p>`;
             exit.classList.remove("exit-active");
         });
+        // Controle Formulaire
         
     });
 
+    // Email sending
+    let send = document.getElementById("send").addEventListener("click",()=>{
+      let name = document.getElementById("name").value;
+      let mail = document.getElementById("email").value;
+      let msg = document.getElementById("message").value;
+      if(name != "" && mail != "" && msg != ""){
+        //send
+        Email.send({
+          SecureToken : "1b3362c8-ced5-4722-9196-e34b9eadb3fc",
+          To : 'alexis.huet.m@gmail.com',
+          From : "lahuts.ptf@gmail.com",
+          Subject : "MESSAGE PORTFOLIO - "+name+" - "+mail,
+          Body :msg
+      }).then(
+        message => alert(message)
+      );
+      }else{
+        alert("Veuillez remplir les champs")
+      }
+    })
     
+    
+    
+
+   
 })

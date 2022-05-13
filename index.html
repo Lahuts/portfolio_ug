@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/project.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="icon" href="favicon/FAVICON.ico" />
+    <link rel="manifest" href="/manifest.webmanifest">
 
     <title>Portfolio</title>
   </head>
@@ -93,10 +95,10 @@
           Via ce formulaire
         </h2>
         <form action="/test.html">
-          <input type="text" name="name" placeholder="Name" />
-          <input type="email" name="email" placeholder="Email" />
-          <textarea name="message" placeholder="Message"></textarea>
-          <input type="submit" value="Send" />
+          <input type="text" name="name" placeholder="Name" id="name" />
+          <input type="email" name="email" placeholder="Email" id="email"/>
+          <textarea name="message" placeholder="Message" id="message"></textarea>
+          <button type="button" id="send">Envoyez</button>
         </form>
       </section>
     </main>
@@ -109,6 +111,7 @@
       <p>alexis.huet.m@gmail.com</p>
     </footer>
     
-    <script src="js/modal.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>
